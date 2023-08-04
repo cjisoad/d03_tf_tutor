@@ -1,0 +1,26 @@
+[0.058s] Invoking command in '/home/cjisoad/d03_tf_tutor/build/tf2_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cjisoad/d03_tf_tutor/build/tf2_broadcaster -- -j4 -l4
+[0.165s] [35m[1mConsolidate compiler generated dependencies of target sta_bro[0m
+[0.201s] [ 50%] [32mBuilding CXX object CMakeFiles/sta_bro.dir/src/tf2_static_bro.cpp.o[0m
+[9.644s] [100%] [32m[1mLinking CXX executable sta_bro[0m
+[10.154s] [100%] Built target sta_bro
+[10.177s] Invoked command in '/home/cjisoad/d03_tf_tutor/build/tf2_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cjisoad/d03_tf_tutor/build/tf2_broadcaster -- -j4 -l4
+[10.251s] Invoking command in '/home/cjisoad/d03_tf_tutor/build/tf2_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cjisoad/d03_tf_tutor/build/tf2_broadcaster
+[10.277s] -- Install configuration: ""
+[10.277s] -- Installing: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/lib/tf2_broadcaster/sta_bro
+[10.281s] -- Set runtime path of "/home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/lib/tf2_broadcaster/sta_bro" to ""
+[10.282s] -- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/ament_index/resource_index/package_run_dependencies/tf2_broadcaster
+[10.282s] -- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/ament_index/resource_index/parent_prefix_path/tf2_broadcaster
+[10.282s] -- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/environment/ament_prefix_path.sh
+[10.282s] -- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/environment/ament_prefix_path.dsv
+[10.282s] -- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/environment/path.sh
+[10.283s] -- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/environment/path.dsv
+[10.283s] -- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/local_setup.bash
+[10.283s] -- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/local_setup.sh
+[10.284s] -- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/local_setup.zsh
+[10.284s] -- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/local_setup.dsv
+[10.284s] -- Installing: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/package.dsv
+[10.284s] -- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/ament_index/resource_index/packages/tf2_broadcaster
+[10.284s] -- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/cmake/tf2_broadcasterConfig.cmake
+[10.285s] -- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/cmake/tf2_broadcasterConfig-version.cmake
+[10.285s] -- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/package.xml
+[10.290s] Invoked command in '/home/cjisoad/d03_tf_tutor/build/tf2_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cjisoad/d03_tf_tutor/build/tf2_broadcaster

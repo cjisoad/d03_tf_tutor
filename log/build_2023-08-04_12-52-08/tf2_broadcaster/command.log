@@ -1,0 +1,6 @@
+Invoking command in '/home/cjisoad/d03_tf_tutor/build/tf2_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cjisoad/d03_tf_tutor/src/tf2_broadcaster -DCMAKE_INSTALL_PREFIX=/home/cjisoad/d03_tf_tutor/install/tf2_broadcaster
+Invoked command in '/home/cjisoad/d03_tf_tutor/build/tf2_broadcaster' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cjisoad/d03_tf_tutor/src/tf2_broadcaster -DCMAKE_INSTALL_PREFIX=/home/cjisoad/d03_tf_tutor/install/tf2_broadcaster
+Invoking command in '/home/cjisoad/d03_tf_tutor/build/tf2_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cjisoad/d03_tf_tutor/build/tf2_broadcaster -- -j4 -l4
+Invoked command in '/home/cjisoad/d03_tf_tutor/build/tf2_broadcaster' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cjisoad/d03_tf_tutor/build/tf2_broadcaster -- -j4 -l4
+Invoking command in '/home/cjisoad/d03_tf_tutor/build/tf2_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cjisoad/d03_tf_tutor/build/tf2_broadcaster
+Invoked command in '/home/cjisoad/d03_tf_tutor/build/tf2_broadcaster' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cjisoad/d03_tf_tutor/build/tf2_broadcaster

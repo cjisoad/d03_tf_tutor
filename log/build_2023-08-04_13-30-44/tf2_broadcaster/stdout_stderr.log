@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target sta_bro[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sta_bro.dir/src/tf2_static_bro.cpp.o[0m
+[100%] [32m[1mLinking CXX executable sta_bro[0m
+[100%] Built target sta_bro
+-- Install configuration: ""
+-- Installing: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/lib/tf2_broadcaster/sta_bro
+-- Set runtime path of "/home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/lib/tf2_broadcaster/sta_bro" to ""
+-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/ament_index/resource_index/package_run_dependencies/tf2_broadcaster
+-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/ament_index/resource_index/parent_prefix_path/tf2_broadcaster
+-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/environment/ament_prefix_path.sh
+-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/environment/path.sh
+-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/environment/path.dsv
+-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/local_setup.bash
+-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/local_setup.sh
+-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/local_setup.zsh
+-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/local_setup.dsv
+-- Installing: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/package.dsv
+-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/ament_index/resource_index/packages/tf2_broadcaster
+-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/cmake/tf2_broadcasterConfig.cmake
+-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/cmake/tf2_broadcasterConfig-version.cmake
+-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/package.xml

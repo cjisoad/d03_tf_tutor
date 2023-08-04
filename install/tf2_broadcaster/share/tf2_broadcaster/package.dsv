@@ -1,0 +1,8 @@
+source;share/tf2_broadcaster/hook/cmake_prefix_path.ps1
+source;share/tf2_broadcaster/hook/cmake_prefix_path.dsv
+source;share/tf2_broadcaster/hook/cmake_prefix_path.sh
+source;share/tf2_broadcaster/local_setup.bash
+source;share/tf2_broadcaster/local_setup.dsv
+source;share/tf2_broadcaster/local_setup.ps1
+source;share/tf2_broadcaster/local_setup.sh
+source;share/tf2_broadcaster/local_setup.zsh

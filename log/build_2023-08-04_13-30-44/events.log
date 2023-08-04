@@ -1,0 +1,140 @@
+[0.000000] (-) TimerEvent: {}
+[0.000785] (tf2_broadcaster) JobQueued: {'identifier': 'tf2_broadcaster', 'dependencies': OrderedDict()}
+[0.003528] (tf2_broadcaster) JobStarted: {'identifier': 'tf2_broadcaster'}
+[0.026594] (tf2_broadcaster) JobProgress: {'identifier': 'tf2_broadcaster', 'progress': 'cmake'}
+[0.028644] (tf2_broadcaster) JobProgress: {'identifier': 'tf2_broadcaster', 'progress': 'build'}
+[0.030795] (tf2_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cjisoad/d03_tf_tutor/build/tf2_broadcaster', '--', '-j4', '-l4'], 'cwd': '/home/cjisoad/d03_tf_tutor/build/tf2_broadcaster', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'cjisoad'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cjisoad'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/cjisoad'), ('TERM_PROGRAM_VERSION', '1.73.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1967'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/cjisoad/d03_tf_tutor/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'cjisoad'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cjisoad'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cjisoad-ros2:@/tmp/.ICE-unix/1757,unix/cjisoad-ros2:/tmp/.ICE-unix/1757'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08c73c9d_ac42_41e8_85b6_53d4ffe363a3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SPDR81'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8f41c4b5d6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cjisoad/d03_tf_tutor/install/tf2_broadcaster:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/cjisoad/d03_tf_tutor/build/tf2_broadcaster'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cjisoad/d03_tf_tutor/install/tf2_broadcaster:/opt/ros/humble')]), 'shell': False}
+[0.100938] (-) TimerEvent: {}
+[0.140906] (tf2_broadcaster) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sta_bro\x1b[0m\n'}
+[0.198194] (tf2_broadcaster) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sta_bro.dir/src/tf2_static_bro.cpp.o\x1b[0m\n'}
+[0.201141] (-) TimerEvent: {}
+[0.306207] (-) TimerEvent: {}
+[0.407797] (-) TimerEvent: {}
+[0.508927] (-) TimerEvent: {}
+[0.609693] (-) TimerEvent: {}
+[0.711297] (-) TimerEvent: {}
+[0.813435] (-) TimerEvent: {}
+[0.914289] (-) TimerEvent: {}
+[1.015339] (-) TimerEvent: {}
+[1.116262] (-) TimerEvent: {}
+[1.218469] (-) TimerEvent: {}
+[1.319493] (-) TimerEvent: {}
+[1.420552] (-) TimerEvent: {}
+[1.521350] (-) TimerEvent: {}
+[1.622551] (-) TimerEvent: {}
+[1.723646] (-) TimerEvent: {}
+[1.824576] (-) TimerEvent: {}
+[1.925047] (-) TimerEvent: {}
+[2.026129] (-) TimerEvent: {}
+[2.127166] (-) TimerEvent: {}
+[2.228152] (-) TimerEvent: {}
+[2.328972] (-) TimerEvent: {}
+[2.429874] (-) TimerEvent: {}
+[2.530516] (-) TimerEvent: {}
+[2.631242] (-) TimerEvent: {}
+[2.732248] (-) TimerEvent: {}
+[2.833228] (-) TimerEvent: {}
+[2.934185] (-) TimerEvent: {}
+[3.034763] (-) TimerEvent: {}
+[3.135509] (-) TimerEvent: {}
+[3.236980] (-) TimerEvent: {}
+[3.338146] (-) TimerEvent: {}
+[3.439847] (-) TimerEvent: {}
+[3.540873] (-) TimerEvent: {}
+[3.642059] (-) TimerEvent: {}
+[3.743011] (-) TimerEvent: {}
+[3.844292] (-) TimerEvent: {}
+[3.944942] (-) TimerEvent: {}
+[4.045868] (-) TimerEvent: {}
+[4.146886] (-) TimerEvent: {}
+[4.247921] (-) TimerEvent: {}
+[4.348591] (-) TimerEvent: {}
+[4.450150] (-) TimerEvent: {}
+[4.551127] (-) TimerEvent: {}
+[4.652154] (-) TimerEvent: {}
+[4.753179] (-) TimerEvent: {}
+[4.854157] (-) TimerEvent: {}
+[4.954899] (-) TimerEvent: {}
+[5.056014] (-) TimerEvent: {}
+[5.156896] (-) TimerEvent: {}
+[5.257974] (-) TimerEvent: {}
+[5.359570] (-) TimerEvent: {}
+[5.460520] (-) TimerEvent: {}
+[5.562162] (-) TimerEvent: {}
+[5.663435] (-) TimerEvent: {}
+[5.765008] (-) TimerEvent: {}
+[5.866437] (-) TimerEvent: {}
+[5.967464] (-) TimerEvent: {}
+[6.068419] (-) TimerEvent: {}
+[6.169468] (-) TimerEvent: {}
+[6.270097] (-) TimerEvent: {}
+[6.371221] (-) TimerEvent: {}
+[6.472186] (-) TimerEvent: {}
+[6.573723] (-) TimerEvent: {}
+[6.674723] (-) TimerEvent: {}
+[6.775706] (-) TimerEvent: {}
+[6.876739] (-) TimerEvent: {}
+[6.977750] (-) TimerEvent: {}
+[7.078681] (-) TimerEvent: {}
+[7.179646] (-) TimerEvent: {}
+[7.280429] (-) TimerEvent: {}
+[7.381417] (-) TimerEvent: {}
+[7.482061] (-) TimerEvent: {}
+[7.582581] (-) TimerEvent: {}
+[7.683727] (-) TimerEvent: {}
+[7.784897] (-) TimerEvent: {}
+[7.886321] (-) TimerEvent: {}
+[7.987369] (-) TimerEvent: {}
+[8.088192] (-) TimerEvent: {}
+[8.189286] (-) TimerEvent: {}
+[8.289964] (-) TimerEvent: {}
+[8.390888] (-) TimerEvent: {}
+[8.491842] (-) TimerEvent: {}
+[8.592505] (-) TimerEvent: {}
+[8.693369] (-) TimerEvent: {}
+[8.794188] (-) TimerEvent: {}
+[8.895201] (-) TimerEvent: {}
+[8.996155] (-) TimerEvent: {}
+[9.097140] (-) TimerEvent: {}
+[9.198068] (-) TimerEvent: {}
+[9.298872] (-) TimerEvent: {}
+[9.399933] (-) TimerEvent: {}
+[9.500765] (-) TimerEvent: {}
+[9.602882] (-) TimerEvent: {}
+[9.703398] (-) TimerEvent: {}
+[9.804441] (-) TimerEvent: {}
+[9.905998] (-) TimerEvent: {}
+[10.006929] (-) TimerEvent: {}
+[10.021917] (tf2_broadcaster) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sta_bro\x1b[0m\n'}
+[10.107383] (-) TimerEvent: {}
+[10.209925] (-) TimerEvent: {}
+[10.311202] (-) TimerEvent: {}
+[10.412265] (-) TimerEvent: {}
+[10.497373] (tf2_broadcaster) StdoutLine: {'line': b'[100%] Built target sta_bro\n'}
+[10.513613] (tf2_broadcaster) CommandEnded: {'returncode': 0}
+[10.517470] (-) TimerEvent: {}
+[10.573273] (tf2_broadcaster) JobProgress: {'identifier': 'tf2_broadcaster', 'progress': 'install'}
+[10.595615] (tf2_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cjisoad/d03_tf_tutor/build/tf2_broadcaster'], 'cwd': '/home/cjisoad/d03_tf_tutor/build/tf2_broadcaster', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'cjisoad'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cjisoad'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/cjisoad'), ('TERM_PROGRAM_VERSION', '1.73.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1967'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/cjisoad/d03_tf_tutor/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'cjisoad'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cjisoad'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cjisoad-ros2:@/tmp/.ICE-unix/1757,unix/cjisoad-ros2:/tmp/.ICE-unix/1757'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08c73c9d_ac42_41e8_85b6_53d4ffe363a3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SPDR81'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8f41c4b5d6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cjisoad/d03_tf_tutor/install/tf2_broadcaster:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/cjisoad/d03_tf_tutor/build/tf2_broadcaster'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cjisoad/d03_tf_tutor/install/tf2_broadcaster:/opt/ros/humble')]), 'shell': False}
+[10.600963] (tf2_broadcaster) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.603065] (tf2_broadcaster) StdoutLine: {'line': b'-- Installing: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/lib/tf2_broadcaster/sta_bro\n'}
+[10.604426] (tf2_broadcaster) StdoutLine: {'line': b'-- Set runtime path of "/home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/lib/tf2_broadcaster/sta_bro" to ""\n'}
+[10.608245] (tf2_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/ament_index/resource_index/package_run_dependencies/tf2_broadcaster\n'}
+[10.615616] (tf2_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/ament_index/resource_index/parent_prefix_path/tf2_broadcaster\n'}
+[10.616816] (tf2_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/environment/ament_prefix_path.sh\n'}
+[10.619602] (-) TimerEvent: {}
+[10.622215] (tf2_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/environment/ament_prefix_path.dsv\n'}
+[10.623474] (tf2_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/environment/path.sh\n'}
+[10.624145] (tf2_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/environment/path.dsv\n'}
+[10.624705] (tf2_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/local_setup.bash\n'}
+[10.625861] (tf2_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/local_setup.sh\n'}
+[10.626505] (tf2_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/local_setup.zsh\n'}
+[10.631247] (tf2_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/local_setup.dsv\n'}
+[10.631694] (tf2_broadcaster) StdoutLine: {'line': b'-- Installing: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/package.dsv\n'}
+[10.632991] (tf2_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/ament_index/resource_index/packages/tf2_broadcaster\n'}
+[10.633791] (tf2_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/cmake/tf2_broadcasterConfig.cmake\n'}
+[10.635445] (tf2_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/cmake/tf2_broadcasterConfig-version.cmake\n'}
+[10.635875] (tf2_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/cjisoad/d03_tf_tutor/install/tf2_broadcaster/share/tf2_broadcaster/package.xml\n'}
+[10.643701] (tf2_broadcaster) CommandEnded: {'returncode': 0}
+[10.721856] (-) TimerEvent: {}
+[10.743083] (tf2_broadcaster) JobEnded: {'identifier': 'tf2_broadcaster', 'rc': 0}
+[10.745882] (-) EventReactorShutdown: {}
